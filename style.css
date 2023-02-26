@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    
+}
+.con a {
+    margin: 10px;
+  text-decoration: none;
+  border: 2px solid rgb(141, 31, 42);
+  font-size: 20px;
+  border-radius: 2px;
+  background-color: gray;
+  height: 20px;
+  color: aliceblue;
+    
+}
+.grade a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    border: 2px solid red;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color: gray;
+
+}
+.con a:hover{
+    background-color: red;
+}
+h1{
+    margin-left: 0px;
+   
+}
+.grade a:hover{
+    background-color: red;
+}
+table ,td ,th{
+    margin: 20px;
+    border: 3px solid rgb(4, 121, 161);
+} 
+th{
+    color: blue;
+}
+td{
+    padding: 3px;
+}
